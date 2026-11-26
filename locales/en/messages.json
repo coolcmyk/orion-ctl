@@ -314,11 +314,11 @@
         "description": "In the selection of languages, this is the default language of the system or English as fallback."
     },
     "language_ar": {
-        "message": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "message": "العربية",
         "description": "Don't translate!!!"
     },
     "language_ca": {
-        "message": "Catal\u00e0",
+        "message": "Català",
         "description": "Don't translate!!!"
     },
     "language_da": {
@@ -334,7 +334,7 @@
         "description": "Don't translate!!!"
     },
     "language_es": {
-        "message": "Espa\u00f1ol",
+        "message": "Español",
         "description": "Don't translate!!!"
     },
     "language_eu": {
@@ -342,7 +342,7 @@
         "description": "Don't translate!!!"
     },
     "language_fr": {
-        "message": "Fran\u00e7ais",
+        "message": "Français",
         "description": "Don't translate!!!"
     },
     "language_gl": {
@@ -350,7 +350,7 @@
         "description": "Don't translate!!!"
     },
     "language_he": {
-        "message": "\u05E2\u05D1\u05E8\u05D9\u05EA",
+        "message": "עברית",
         "description": "Don't translate!!!"
     },
     "language_it": {
@@ -358,19 +358,19 @@
         "description": "Don't translate!!!"
     },
     "language_ja": {
-        "message": "\u65E5\u672C\u8A9E",
+        "message": "日本語",
         "description": "Don't translate!!!"
     },
     "language_ka": {
-        "message": "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8",
+        "message": "ქართული",
         "description": "Don't translate!!!"
     },
     "language_kk": {
-        "message": "\u049A\u0430\u0437\u0430\u049B\u0448\u0430",
+        "message": "Қазақша",
         "description": "Don't translate!!!"
     },
     "language_ko": {
-        "message": "\ud55c\uad6d\uc5b4",
+        "message": "한국어",
         "description": "Don't translate!!!"
     },
     "language_nl": {
@@ -378,11 +378,11 @@
         "description": "Don't translate!!!"
     },
     "language_pt": {
-        "message": "Portugu\u00EAs",
+        "message": "Português",
         "description": "Don't translate!!!"
     },
     "language_pt-BR": {
-        "message": "Portugu\u00EAs Brasileiro",
+        "message": "Português Brasileiro",
         "description": "Don't translate!!!"
     },
     "language_pl": {
@@ -390,7 +390,7 @@
         "description": "Don't translate!!!"
     },
     "language_ru": {
-        "message": "\u0420\u0443\u0441\u0441\u043A\u0438\u0439",
+        "message": "Русский",
         "description": "Don't translate!!!"
     },
     "language_sr": {
@@ -398,11 +398,11 @@
         "description": "Don't translate!!!"
     },
     "language_sr-Cyrl": {
-        "message": "\u0421\u0440\u043f\u0441\u043a\u0438 (\u045b\u0438\u0440\u0438\u043b\u0438\u0446\u0430)",
+        "message": "Српски (ћирилица)",
         "description": "Don't translate!!!"
     },
     "language_uk": {
-        "message": "\u0423\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430",
+        "message": "Українська",
         "description": "Don't translate!!!"
     },
     "language_uz": {
@@ -410,11 +410,11 @@
         "description": "Don't translate!!!"
     },
     "language_zh-CN": {
-        "message": "\u7b80\u4f53\u4e2d\u6587",
+        "message": "简体中文",
         "description": "Don't translate!!!"
     },
     "language_zh-TW": {
-        "message": "\u7e41\u9ad4\u4e2d\u6587",
+        "message": "繁體中文",
         "description": "Don't translate!!!"
     },
     "sensorDataFlashNotFound": {
@@ -555,27 +555,55 @@
     "tabPidTuning": {
         "message": "PID Tuning"
     },
-    "tabAutotune": { "message": "Autotune" },
+    "tabAutotune": {
+        "message": "Autotune"
+    },
     "tabBlackboxViewer": {
         "message": "Blackbox Viewer",
         "description": "Navigation sidebar label for the Blackbox log viewer tab"
     },
-    "autotuneImportTitle": { "message": "Blackbox Chirp Analysis" },
-    "autotuneImportButton": { "message": "Import Blackbox Log" },
+    "autotuneImportTitle": {
+        "message": "Blackbox Chirp Analysis"
+    },
+    "autotuneImportButton": {
+        "message": "Import Blackbox Log"
+    },
     "autotuneImportDescription": {
         "message": "Import a blackbox log recorded with debug_mode = CHIRP to analyze frequency response and compute PID recommendations."
     },
-    "autotuneBandwidth": { "message": "Bandwidth" },
-    "autotuneCrossover": { "message": "Gain Crossover" },
-    "autotunePhaseMargin": { "message": "Phase Margin" },
-    "autotuneTargetCrossover": { "message": "Crossover Limit" },
-    "autotuneMaxPhaseMargin": { "message": "Max Phase Margin" },
-    "autotunePredictedSensitivity": { "message": "Predicted Peak Sens." },
-    "autotuneLoopDelay": { "message": "Loop Delay" },
-    "autotuneTargetMargin": { "message": "Tuning target" },
-    "autotuneMarginAggressive": { "message": "Aggressive" },
-    "autotuneMarginNormal": { "message": "Normal" },
-    "autotuneMarginConservative": { "message": "Conservative" },
+    "autotuneBandwidth": {
+        "message": "Bandwidth"
+    },
+    "autotuneCrossover": {
+        "message": "Gain Crossover"
+    },
+    "autotunePhaseMargin": {
+        "message": "Phase Margin"
+    },
+    "autotuneTargetCrossover": {
+        "message": "Crossover Limit"
+    },
+    "autotuneMaxPhaseMargin": {
+        "message": "Max Phase Margin"
+    },
+    "autotunePredictedSensitivity": {
+        "message": "Predicted Peak Sens."
+    },
+    "autotuneLoopDelay": {
+        "message": "Loop Delay"
+    },
+    "autotuneTargetMargin": {
+        "message": "Tuning target"
+    },
+    "autotuneMarginAggressive": {
+        "message": "Aggressive"
+    },
+    "autotuneMarginNormal": {
+        "message": "Normal"
+    },
+    "autotuneMarginConservative": {
+        "message": "Conservative"
+    },
     "autotuneTargetUnreachable": {
         "message": "$1: this craft cannot reach $2° of phase margin (its limit is about $3), so the gain is held rather than guessed. Choose a lower target, or add D to raise the limit."
     },
@@ -588,43 +616,111 @@
     "autotuneSensitivityUnreachable": {
         "message": "$1: no gain within one pass keeps peak sensitivity inside the robustness bound. The value proposed is the best available rather than a safe one — treat it as a starting point and re-measure."
     },
-    "autotuneResonantPeak": { "message": "Resonant Peak" },
-    "autotuneCoherence": { "message": "Coherence" },
-    "autotuneCurrent": { "message": "Current" },
-    "autotuneProposed": { "message": "Proposed" },
-    "autotuneApplied": { "message": "Gains applied and saved." },
+    "autotuneResonantPeak": {
+        "message": "Resonant Peak"
+    },
+    "autotuneCoherence": {
+        "message": "Coherence"
+    },
+    "autotuneCurrent": {
+        "message": "Current"
+    },
+    "autotuneProposed": {
+        "message": "Proposed"
+    },
+    "autotuneApplied": {
+        "message": "Gains applied and saved."
+    },
     "autotuneApplyConfirmText": {
         "message": "Applying writes the tuning sliders to the flight controller and saves them to EEPROM. Recommended gains can destabilise the craft on first arm, so be ready to disarm for the first test."
     },
-    "autotuneApplyConfirmTitle": { "message": "Apply recommended gains?" },
-    "autotuneApplyFailed": { "message": "Failed to apply gains" },
-    "autotuneConnectRequired": { "message": "Connect to flight controller to apply gains." },
-    "autotuneSampleRate": { "message": "Sample rate: {{rate}} Hz" },
-    "autotuneImportAnother": { "message": "Import Another" },
-    "autotuneImportRetry": { "message": "Try Again" },
-    "autotuneFile": { "message": "File" },
-    "autotuneAxesDetected": { "message": "Axes Detected" },
-    "autotuneApplyGains": { "message": "Apply Gains" },
-    "autotuneGainTitle": { "message": "Gain Recommendation" },
-    "autotuneAxisRoll": { "message": "Roll" },
-    "autotuneAxisPitch": { "message": "Pitch" },
-    "autotuneAxisYaw": { "message": "Yaw" },
-    "autotuneBodePlotTitle": { "message": "Frequency Response" },
-    "autotuneSectionCurrentPids": { "message": "Current PIDs (from log)" },
-    "autotuneSectionAnalysis": { "message": "Analysis" },
-    "autotuneSectionProposedSliders": { "message": "Proposed Sliders" },
-    "autotuneSliderMasterMultiplier": { "message": "Master Multiplier" },
-    "autotuneSliderPIGain": { "message": "P / I Gain" },
-    "autotuneSliderIGain": { "message": "I Gain" },
-    "autotuneSliderDGain": { "message": "D Gain" },
-    "autotuneSliderFeedforward": { "message": "Feedforward" },
-    "autotuneSliderDTermFilter": { "message": "D-Term Filter" },
-    "autotuneApplyFromAxis": { "message": "Apply gains from axis" },
-    "autotuneSensitivityPeak": { "message": "Sensitivity Peak" },
-    "autotuneOvershoot": { "message": "Overshoot" },
-    "autotuneRiseTime": { "message": "Rise Time" },
-    "autotuneSettlingTime": { "message": "Settling Time" },
-    "autotuneSpectrogramTitle": { "message": "Spectrogram (Gyro)" },
+    "autotuneApplyConfirmTitle": {
+        "message": "Apply recommended gains?"
+    },
+    "autotuneApplyFailed": {
+        "message": "Failed to apply gains"
+    },
+    "autotuneConnectRequired": {
+        "message": "Connect to flight controller to apply gains."
+    },
+    "autotuneSampleRate": {
+        "message": "Sample rate: {{rate}} Hz"
+    },
+    "autotuneImportAnother": {
+        "message": "Import Another"
+    },
+    "autotuneImportRetry": {
+        "message": "Try Again"
+    },
+    "autotuneFile": {
+        "message": "File"
+    },
+    "autotuneAxesDetected": {
+        "message": "Axes Detected"
+    },
+    "autotuneApplyGains": {
+        "message": "Apply Gains"
+    },
+    "autotuneGainTitle": {
+        "message": "Gain Recommendation"
+    },
+    "autotuneAxisRoll": {
+        "message": "Roll"
+    },
+    "autotuneAxisPitch": {
+        "message": "Pitch"
+    },
+    "autotuneAxisYaw": {
+        "message": "Yaw"
+    },
+    "autotuneBodePlotTitle": {
+        "message": "Frequency Response"
+    },
+    "autotuneSectionCurrentPids": {
+        "message": "Current PIDs (from log)"
+    },
+    "autotuneSectionAnalysis": {
+        "message": "Analysis"
+    },
+    "autotuneSectionProposedSliders": {
+        "message": "Proposed Sliders"
+    },
+    "autotuneSliderMasterMultiplier": {
+        "message": "Master Multiplier"
+    },
+    "autotuneSliderPIGain": {
+        "message": "P / I Gain"
+    },
+    "autotuneSliderIGain": {
+        "message": "I Gain"
+    },
+    "autotuneSliderDGain": {
+        "message": "D Gain"
+    },
+    "autotuneSliderFeedforward": {
+        "message": "Feedforward"
+    },
+    "autotuneSliderDTermFilter": {
+        "message": "D-Term Filter"
+    },
+    "autotuneApplyFromAxis": {
+        "message": "Apply gains from axis"
+    },
+    "autotuneSensitivityPeak": {
+        "message": "Sensitivity Peak"
+    },
+    "autotuneOvershoot": {
+        "message": "Overshoot"
+    },
+    "autotuneRiseTime": {
+        "message": "Rise Time"
+    },
+    "autotuneSettlingTime": {
+        "message": "Settling Time"
+    },
+    "autotuneSpectrogramTitle": {
+        "message": "Spectrogram (Gyro)"
+    },
     "tabReceiver": {
         "message": "Receiver"
     },
@@ -9458,5 +9554,8 @@
     },
     "speedCurvesCurveMaxHelp": {
         "message": "The hyperbolic curves max value limit, *0.01"
+    },
+    "tabJoystick": {
+        "message": "Joystick"
     }
 }

@@ -217,7 +217,8 @@ const setupMapLayers = () => {
             const hit = map.hasFeatureAtPixel(event.pixel, {
                 layerFilter: isWaypointLayer,
             });
-            map.getTargetElement().style.cursor = hit ? "move" : "";
+            const target = map.getTargetElement();
+            if (target) target.style.cursor = hit ? "move" : "";
         }
     });
 
