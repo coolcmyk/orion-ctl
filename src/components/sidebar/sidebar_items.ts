@@ -55,6 +55,7 @@ export const sidebarItems: SidebarItem[] = [
     { key: "preflight", mode: "disconnected", i18n: "tabPreflight", icon: "i-lucide-clipboard-check" },
     { key: "flight_plan", mode: "disconnected", i18n: "tabFlightPlan", icon: "i-lucide-route", expert: true },
     { key: "joystick", mode: "connected", i18n: "tabJoystick", icon: "i-lucide-gamepad-2" },
+    { key: "video", mode: "connected", i18n: "tabVideo", icon: "i-lucide-video" },
 
     { key: "setup", mode: "connected", i18n: "tabSetup", icon: "i-lucide-sliders-horizontal" },
     { key: "sensors", mode: "connected", i18n: "tabSensorConfig", icon: "i-lucide-cpu" },

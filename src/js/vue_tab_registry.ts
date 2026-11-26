@@ -38,6 +38,7 @@ import PowerTab from "../components/tabs/PowerTab.vue";
 import SensorsTab from "../components/tabs/SensorsTab.vue";
 import FlightPlanTab from "../components/tabs/FlightPlanTab.vue";
 import JoystickTab from "../components/tabs/JoystickTab.vue";
+import VideoTab from "../components/tabs/VideoTab.vue";
 import LedStripTab from "../components/tabs/LedStripTab.vue";
 import FailsafeTab from "../components/tabs/FailsafeTab.vue";
 import MotorsTab from "../components/tabs/MotorsTab.vue";
@@ -70,6 +71,7 @@ export const VueTabComponents = {
     sensors: SensorsTab,
     flight_plan: FlightPlanTab,
     joystick: JoystickTab,
+    video: VideoTab,
     led_strip: LedStripTab,
     failsafe: FailsafeTab,
     motors: MotorsTab,

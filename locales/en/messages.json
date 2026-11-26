@@ -9557,5 +9557,8 @@
     },
     "tabJoystick": {
         "message": "Joystick"
+    },
+    "tabVideo": {
+        "message": "Video"
     }
 }
