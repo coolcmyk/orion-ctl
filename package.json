@@ -59,6 +59,7 @@
     "@tauri-apps/plugin-dialog": "^2.7.2",
     "@tauri-apps/plugin-fs": "^2.5.1",
     "@vitejs/plugin-vue": "^6.0.1",
+    "Leaflet.MultiOptionsPolyline": "github:hgoebl/Leaflet.MultiOptionsPolyline",
     "crypto-es": "^3.1.3",
     "d3": "^7.9.0",
     "djv": "^2.1.4",
@@ -71,7 +72,6 @@
     "jsdom": "^30.0.1",
     "leaflet": "^1.9.3",
     "leaflet-marker-rotation": "^0.4.0",
-    "Leaflet.MultiOptionsPolyline": "github:hgoebl/Leaflet.MultiOptionsPolyline",
     "lodash.debounce": "^4.0.8",
     "marked": "^18.0.13",
     "mediabunny": "^1.55.2",
@@ -101,6 +101,7 @@
     "@types/leaflet": "^1.9.22",
     "@types/semver": "^7.8.0",
     "@types/three": "^0.186.0",
+    "@vue/compiler-sfc": "^3.5.46",
     "@vue/test-utils": "^2.5.0",
     "@vue/tsconfig": "^0.9.1",
     "cross-env": "^10.1.0",
@@ -125,7 +126,8 @@
     "vite-plugin-static-copy": "^4.1.1",
     "vitest": "^5.0.5",
     "vue-eslint-parser": "^10.4.1",
-    "vue-tsc": "^3.3.11"
+    "vue-tsc": "^3.3.11",
+    "workbox-window": "^7.4.1"
   },
   "overrides": {
     "xcode": {
